@@ -1,0 +1,24 @@
+/* 60% - #411959 - background
+30% - #ebedef - text in the websitw
+10% - #ecb616 - accent like button,headings etc
+https://huemint.com/website-1/#palette=411959-ebedef-ecb616 */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --background: ##bbdcde;
+  --font: #05176d;
+  --accent: #f72284;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--background);
+  font-family: "Poppins", sans-serif;
+  color: var(--font);
+}
