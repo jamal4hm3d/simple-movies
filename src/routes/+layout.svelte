@@ -11,7 +11,7 @@
 <style>
   .flex-container {
     display: flex;
-    padding: 20px;
+    padding: 10px;
     color: var(--accent);
     justify-content: center;
   }

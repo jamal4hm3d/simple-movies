@@ -1,6 +1,5 @@
 <script>
   import Poster from "$lib/components/Poster.svelte";
-  import { browser } from "$app/environment";
   export let data;
   let movies = [];
   for (const i in data) {
@@ -10,15 +9,9 @@
   $: filmovies = movies.filter((x) =>
     x.name.toLowerCase().includes(searchq.toLowerCase())
   );
-  let device = "";
-  if (browser) {
-    if (window.navigator.userAgentData.mobile) {
-      device = "mobile";
-    }
-  }
 </script>
 
-<div>{device}</div>
+<!-- <div>{device}</div> -->
 
 <div class="flex-box">
   <input
