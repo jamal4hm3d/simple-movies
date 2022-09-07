@@ -39,7 +39,7 @@
   .flex-box {
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 10px 10px 30px;
   }
   input {
     background-color: var(--background);
